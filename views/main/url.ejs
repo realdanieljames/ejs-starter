@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>URL <i class="fa fa-pagelines" aria-hidden="true"></i></title>
-</head>
-<body>
-    <h1>URL PAGE</h1>
-    <ul>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Page</title>
+</head>
+
+<body>
+    <h1>URL Page</h1>
+    <ul>
         <% myData.forEach(element => { %>
-            <li> <%= element.name  %> </li>
+            <li>
+                <%= element.name %>
+            </li>
             <% }) %>
-        </ul>
+    </ul>
 </body>
+
 </html>
