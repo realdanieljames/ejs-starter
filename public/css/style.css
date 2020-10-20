@@ -1,0 +1,14 @@
+body {
+    background: lightyellow;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

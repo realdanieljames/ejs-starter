@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <%- include ('../partials/head')%>
+    <title>ejs intro</title>
+</head>
+
+
+<body>
+    <%- include('../partials/header' )%>
+
+    <img src="/images/maycbach2020SUV.jpeg" height="200" width="300" alt="..." />
+    <ul>
+        <% myPlaces.forEach((item) => { %>
+        <li><%= item.city  %>, <%= item.state %></li>
+
+
+        <% }) %>
+    </ul>
+
+
+</body>
+
+</html>
